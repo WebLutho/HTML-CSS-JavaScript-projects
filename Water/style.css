@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+}
+
+.water-system{
+    height: 500px;
+    width: 450px;
+    background-color: rgb(3, 3, 71);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+}
+
+.container{
+    height: 300px;
+    width: 350px;
+    background-color: #fff;
+    display: flex;
+    align-items: end;
+    border-radius: 0 0 40px 40px;
+}
+
+.water{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(38, 38, 252, 0.897);
+    border-radius: inherit;
+    transition: all 0.2s ease;
+}
+
+button{
+    height: 40px;
+    width: 80px;
+    margin: 5px;
+    color: #ffff;
+    background-color: rgba(38, 38, 252, 0.897);
+}
+
